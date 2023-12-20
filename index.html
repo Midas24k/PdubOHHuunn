@@ -11,50 +11,55 @@
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Wallpoet&display=swap" rel="stylesheet">
   </head>
-    <header class="header mt-0 pb-6">
-        <nav class="navbar">
-            <div class="nav-brand is is-flex ml-4">
-                <img src="Assets/images/240-2400372_jack-frost-snoo-jack-frost-face-persona.png" alt="" style="width:10vw; height: 15vh;">
-                <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+    <header class="header  mt-0 pb-6">
+        <nav class="navbar is>-transparent has-background-light pt-4">
+            <div class="nav-brand ml-4">
+                <img src="Assets/images/240-2400372_jack-frost-snoo-jack-frost-face-persona.png" alt="" style="width:8vw; height: 10vh;">
+                <div class="navbar-burger" data-target="">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-                <div id="navbarExampleTransparentExample"  class="navbar-menu">
-    
-                    <div class="navbar-end ">
-                        <a class="navbar-item has-text-warning" href="#top">
-                            Home
-                        </a>
-                        <a class="navbar-item has-text-warning" href="">
-                            Resources
-                        </a>
-                        <a class="navbar-item has-text-warning" href="">
-                            Contact
-                        </a>
-                       
-                    </div>
-                </div>   
+               
             </div>
+
+            <div class="navbar has-text-info has-background-light ml-6">
+                <h1 >Jack Frost's Weather Report</H1>
+            </div>
+            
+
+
+            <div id="navbarlist"  class="navbar-menu ">
+    
+                <div class="navbar-end ">
+                    <a class="navbar-item has-text-info" href="">
+                        Home
+                    </a>
+                    <a class="navbar-item has-text-info" href="">
+                        Resources
+                    </a>
+                    <a class="navbar-item has-text-info" href="">
+                        Contact
+                    </a>
+                   
+                </div>
+            </div>   
         </nav>   
     </header>
- 
-   
-  </nav>
          
-  <h1 > Weekly Forecast</H1>
+  
   <body>
-    
+  
     <div class="container is-flex">
-      <div class="columns ml-4">
+      <div class="columns is-one-third ml-4">
         <section class="geosearch">
             <h2> City Search </h2>
           <input type="text" placeholder="enter city name" spellcheck="false" />
-          <button><img src="Assets/images/magnifier.png" /></button>
+          <button><img src="" /></button>
         </section>
       </div>
       
-      <div class="columns ml-4">
+      <div class="columns is-three-quarters ml-4">
         <section id="forecast" class="fbox">
             <h2> 5 Day Forecast</h2>
         </section>
@@ -68,4 +73,7 @@
     </div>
 
   </body>
+  <footer>
+    
+  </footer>
 </html>
